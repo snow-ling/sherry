@@ -32,9 +32,9 @@ $(function(){
     });
 
   // NIVO LIGHTBOX
-  $('#project a').nivoLightbox({
-        effect: 'fadeScale',
-    });
+  // $('#project a').nivoLightbox({
+  //       effect: 'fadeScale',
+  //   });
 
 });
 
