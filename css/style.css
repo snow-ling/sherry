@@ -328,3 +328,16 @@ footer .fa {
 #copyright a:hover {
   color: #FF0;
 }
+.qnb-project-a{
+  position: relative;
+}
+.qnb-project-a::before {
+  content: '一款专为年轻人打造的全新资讯平台。 致力于为用户提供最新、最热、最有趣的新闻内容，涵盖各个领域，包括时事政治、科技创新、娱乐八卦、体育赛事等。';
+  position: absolute;
+  color: white;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 设置遮罩层的颜色和透明度
+}
